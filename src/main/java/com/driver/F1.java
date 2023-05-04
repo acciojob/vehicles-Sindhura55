@@ -35,11 +35,11 @@ public class F1 extends Car {
 
                super.changeGear(2);
             }
-            else if(newSpeed>101&&newSpeed<=150){
+            else if(newSpeed>100&&newSpeed<=150){
 
                 super.changeGear(3);
             }
-           else  if(newSpeed>151&&newSpeed<=200){
+           else  if(newSpeed>150&&newSpeed<=200){
 
                 super.changeGear(4);
             }
